@@ -17,5 +17,7 @@ unix {
 
 INCLUDEPATH += $$PWD/src
 
+# TODO Uncomment and amend when using a namespaced Qt: DEFINES += QT_NAMESPACE=OurQtNamespace
+
 QDEP_PACKAGE_EXPORTS += Q_CTRL_SIGNALS_EXPORT
 !qdep_build: DEFINES += "Q_CTRL_SIGNALS_EXPORT="
